@@ -5,7 +5,7 @@ body {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  background-color: e9ecef;
+  background-color: whitesmoke;
   
  
 }
@@ -76,13 +76,38 @@ a {
     font-size: 30px;
     color: white;
     font-weight: bolder;
+    
 }
 
+.p1{
+    padding-bottom: 30px;
+}
+
+.p2{
+    font-size: 20px;
+}
+
+
 .container {
-    background-color: e9ecef;
+    background-color: white;
     padding: 20px;
     margin-left: 45px;
     margin-right: 45px;
+}
+
+.p3 {
+    display: inline-block;
+    margin-right: 40px;
+    padding-bottom: 15px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+#pb {
+    color: rgba(39,106,119,255);
+    font-weight: bold;
+    font-size: 20px;
+    display: inline-block;
 }
 
 .cards-container {
@@ -90,25 +115,91 @@ a {
     display: flex;
     justify-content: space-around; 
     flex-wrap: wrap; 
-    gap: 5px; /* Spazio tra le cards */
+    gap: 5px; 
     
 }
 
-/* Stile per ciascuna card */
+
 .card {
     background-color: #f4f4f4;
     border: 1px solid #ccc;
     border-radius: 5%;
-    width: 22%; /* Regola la larghezza della card */
+    width: 22%; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     
 }
 
-/* Stile per l'immagine all'interno della card */
+
 .card img {
     width: 100%;
-    height: auto;
+    height: 100%;
 }
+
+.secImg {
+    text-align: center;
+    
+    padding-top: 30px;
+    margin-left: 45px;
+    margin-right: 45px;
+    padding-bottom: 20px;
+}
+
+.secImgBanner {
+width: 100%;
+
+}
+
+.pSec{
+    padding-top: 7px;
+    font-size: 25px;
+    font-weight: bolder;
+
+}
+
+.strong {
+    color: rgba(39,106,119,255);
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 23px;
+}
+
+.tImg {
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 30px;
+    margin-left: 45px;
+    margin-right: 45px;
+
+}
+
+.thImgBanner {
+    width: 100%;
+}
+
+.foot{
+    background-color: rgb(35, 47, 63);
+    text-align: center;
+}
+
+.fdiv{
+    background-color:rgb(54, 71, 87) ;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-size: 20px;
+    text-decoration: underline white;
+}
+
+.blogo {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+
+
+
+
+
 
 
